@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { SignOutButton } from "@/components/feed/sign-out-button";
-import { UserAvatar, fullName } from "@/components/feed/user-avatar";
+import { UserAvatar, fullName } from "@/components/feed/user-avatar"; 
 import { getCurrentUser } from "@/lib/auth-session";
 
 export default async function AppLayout({
