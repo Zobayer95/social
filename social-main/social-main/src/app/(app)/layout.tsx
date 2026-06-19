@@ -10,7 +10,7 @@ export default async function AppLayout({
 }) {  
   const user = await getCurrentUser(); 
   if (!user) {
-    redirect("/login");
+    redirect("/login"); 
   }
 
   return (
