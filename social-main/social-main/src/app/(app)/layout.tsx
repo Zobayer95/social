@@ -5,7 +5,7 @@ import { getCurrentUser } from "@/lib/auth-session";
 
 export default async function AppLayout({
   children,
-}: {  
+}: {   
   children: React.ReactNode; 
 }) {   
   const user = await getCurrentUser();    
