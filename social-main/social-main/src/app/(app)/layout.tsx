@@ -4,7 +4,7 @@ import { UserAvatar, fullName } from "@/components/feed/user-avatar";
 import { getCurrentUser } from "@/lib/auth-session";
 
 export default async function AppLayout({
-  children,
+  children, 
 }: {    
   children: React.ReactNode;     
 }) {     
