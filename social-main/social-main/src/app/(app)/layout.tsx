@@ -3,7 +3,7 @@ import { SignOutButton } from "@/components/feed/sign-out-button";
 import { UserAvatar, fullName } from "@/components/feed/user-avatar"; 
 import { getCurrentUser } from "@/lib/auth-session";
 
-export default async function AppLayout({
+export default async function AppLayout({ 
   children, 
 }: {    
   children: React.ReactNode;       
